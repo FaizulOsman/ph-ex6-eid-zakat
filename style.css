@@ -16,6 +16,7 @@ h2 {
 
 p {
     font-family: 'Poppins', sans-serif;
+    color: #707070;
 }
 
 .button {
@@ -35,9 +36,9 @@ header {
     background-image: url("./images/Rectangle\ 1.png");
     background-repeat: no-repeat;
     background-size: 1440px 700px;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     height: 700px;
-    /* background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%); */
 }
 
 .main-header {
@@ -66,4 +67,262 @@ header {
     height: 84px;
     margin-top: 20px;
     margin-bottom: 50px;
+    color: white;
+}
+
+
+
+/* ====================== Main Area ======================= */
+main {
+    max-width: 1440px;
+    width: 100%;
+}
+
+/* ================= First Section ================== */
+.first-section {
+    margin: 130px 204px;
+    display: flex;
+}
+
+.first-section .text-area {
+    margin-top: 50px;
+    width: 493px;
+    margin-right: 82px;
+}
+
+article h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+article p {
+    margin-top: 20px;
+}
+
+article p.bottom {
+    margin-bottom: 50px;
+}
+
+.first-section .img-area img {
+    width: 456px;
+    height: 477px;
+}
+
+.first-section .img-area {
+    position: relative;
+}
+
+.first-section .img-area img:last-child {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    top: 182px;
+    left: 172px;
+}
+
+/* ================= Section Section ================== */
+.second-section {
+    margin: 100px 204px;
+    display: flex;
+}
+
+.second-section .text-area {
+    margin-top: 50px;
+    width: 482px;
+    margin-left: 82px;
+}
+
+.second-section .img-area img {
+    width: 456px;
+    height: 477px;
+}
+
+
+
+/* ================= Donate Card Section ================== */
+.donate-card-section {
+    margin-top: 130px;
+}
+
+.donate-card-section .top-section {
+    text-align: center;
+}
+
+.donate-card-section h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.donate-card-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.donate-card-section .card-section {
+    margin: 50px 247px 0 247px;
+    display: flex;
+
+}
+
+.donate-card-section .card-section .card {
+    width: 461px;
+    background-color: #FEF4F5;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.donate-card-section .card-section .card img {
+    width: 56px;
+    height: 56px;
+}
+
+.donate-card-section .card-section .card .card-text {
+    padding-left: 30px;
+}
+
+.donate-card-section .card-section .card .card-text h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.donate-card-section .card-section .card .card-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.donate-card-section .card-section .card-margin {
+    margin-left: 24px;
+}
+
+
+
+/* ====================== Blank Image Section ======================= */
+
+.blank-img-section {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.blank-img-section .image-area {
+    display: flex;
+    width: 1140px;
+    margin: 130px auto 0 auto;
+}
+
+.blank-img-section .image-area .images {
+    width: 364px;
+    height: 391px;
+}
+
+.blank-img-section .img-2 {
+    margin: 0 24px;
+}
+
+
+
+/* ====================== Blog Area ======================= */
+
+.blog-area {
+    margin-top: 130px;
+}
+
+.blog-head {
+    text-align: center;
+}
+
+.blog-head h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.blog-head p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.blog-area .blog-body {
+    display: flex;
+    width: 1140px;
+    margin: 50px auto 0 auto;
+}
+
+.blog-area .blog-body .blog {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.blog-area .blog-body .blog-2 {
+    margin: 0 24px;
+}
+
+.blog-area .blog-body .blog .text {
+    padding: 28px;
+}
+
+.blog-area .blog-body .blog .text h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.blog-area .blog-body .blog .text p {
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.blog-area .blog-body .blog .text a {
+    color: #EF233C;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.blog-area .blog-body .blog .text {
+    padding: 28px;
+}
+
+
+
+/* ====================== Footer Area ======================= */
+
+footer {
+    max-width: 1440px;
+    width: 100%;
+    background: #0B0D17;
+    margin-top: 130px;
+}
+
+footer .footer-text {
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 42px;
+}
+
+footer .footer-text h2 {
+    font-family: 'Lobster', cursive;
+    color: #EF233C;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+footer .footer-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 24px;
 }
