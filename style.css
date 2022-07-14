@@ -30,6 +30,10 @@ p {
     text-decoration: none;
 }
 
+.button:hover {
+    box-shadow: 5px 5px 40px lightcoral;
+    transition: .4s;
+}
 
 /* ====================== Header Area ======================= */
 header {
@@ -71,6 +75,48 @@ header {
 }
 
 
+
+/* ====================== Navbar Area ======================= */
+/* ====================== Navbar Area ======================= */
+.nav-area {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    max-width: 1440px;
+    width: 100%;
+    background: #0B0D17;
+    z-index: 100;
+}
+
+.nav-area .navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo h2 {
+    font-family: 'Lobster', cursive;
+    color: #EF233C;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    padding: 10px 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    padding: 20px 0 0 20px;
+}
+
+.navbar nav ul a {
+    color: white;
+    text-decoration: none;
+}
 
 /* ====================== Main Area ======================= */
 main {
@@ -119,9 +165,16 @@ article p.bottom {
     height: 112px;
     top: 182px;
     left: 172px;
+    border-radius: 50%;
 }
 
-/* ================= Section Section ================== */
+.first-section .img-area img:last-child:hover {
+    box-shadow: 5px 5px 40px lightcoral;
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+/* ================= Second Section ================== */
 .second-section {
     margin: 100px 204px;
     display: flex;
@@ -163,7 +216,7 @@ article p.bottom {
 }
 
 .donate-card-section .card-section {
-    margin: 50px 247px 0 247px;
+    margin: 50px 204px 0 204px;
     display: flex;
 
 }
@@ -176,13 +229,19 @@ article p.bottom {
     border-radius: 10px;
 }
 
+.donate-card-section .card-section .card:hover {
+    background-color: #f3cbcf;
+    transition: .5s;
+    margin-top: -20px;
+}
+
 .donate-card-section .card-section .card img {
     width: 56px;
     height: 56px;
 }
 
 .donate-card-section .card-section .card .card-text {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .donate-card-section .card-section .card .card-text h4 {
@@ -193,8 +252,7 @@ article p.bottom {
 
 .donate-card-section .card-section .card .card-text p {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
 }
 
 .donate-card-section .card-section .card-margin {
