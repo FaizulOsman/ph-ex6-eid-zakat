@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+:root {
+    --main-color: #EF233C;
+}
+
 h1,
 h4,
 a {
@@ -24,7 +28,7 @@ p {
     font-size: 20px;
     line-height: 24px;
     padding: 16px 20.5px;
-    background: #EF233C;
+    background: var(--main-color);
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -96,11 +100,15 @@ header {
 
 .navbar .logo h2 {
     font-family: 'Lobster', cursive;
-    color: #EF233C;
+    color: var(--main-color);
     font-weight: 500;
     font-size: 40px;
     line-height: 44px;
     padding: 10px 0;
+}
+
+.navbar .logo h2:hover {
+    cursor: pointer;
 }
 
 .navbar nav ul {
@@ -118,7 +126,7 @@ header {
 }
 
 .navbar nav ul li a:hover {
-    color: #EF233C;
+    color: var(--main-color);
 }
 
 .navbar nav ul li>a::after {
@@ -135,7 +143,7 @@ header {
 .navbar nav ul li>a:hover::after,
 li>a.active-nav::after {
     width: 100%;
-    background: #EF233C;
+    background: var(--main-color);
 }
 
 /* ====================== Main Area ======================= */
@@ -357,12 +365,12 @@ article p.bottom {
     margin-top: 10px;
     margin-bottom: 28px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
 }
 
 .blog-area .blog-body .blog .text a {
-    color: #EF233C;
+    color: var(--main-color);
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -392,7 +400,7 @@ footer .footer-text {
 
 footer .footer-text h2 {
     font-family: 'Lobster', cursive;
-    color: #EF233C;
+    color: var(--main-color);
     font-weight: 400;
     font-size: 36px;
     line-height: 44px;
